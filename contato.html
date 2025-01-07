@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Imigrantes Haitianos em Londrina</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #FFFFFF;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #003366;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+        .doacoes {
+            background-color: #B22234;
+            color: #FFFFFF;
+            padding: 10px 20px;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #003366;
+            color: #FFFFFF;
+        }
+        .content {
+            padding: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: 0 auto;
+        }
+        form input, form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #1E1E1E;
+            color: #FFFFFF;
+        }
+        form button {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #B22234;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo" onclick="window.location.href='index.html'">
+            <img src="logo-placeholder.png" alt="Logo do Projeto" style="height: 40px;">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="sobre.html">O Projeto</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="flores-do-campo.html">Flores do Campo</a></li>
+                <li><a href="caritas.html">Caritas</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="doacoes.html" class="doacoes">Doações</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+        <h1>Contato</h1>
+        <p>Entre em contato conosco preenchendo o formulário abaixo:</p>
+        <form action="#" method="post">
+            <input type="text" name="nome" placeholder="Seu nome" required>
+            <input type="email" name="email" placeholder="Seu e-mail" required>
+            <textarea name="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <footer>
+        <p>haitianos.ldna@gmail.com</p>
+        <p>
+            <a href="https://www.instagram.com/pxfurlan" target="_blank" style="text-decoration: none; color: #FFFFFF;">
+                <img src="Instagram_logo.png" alt="Instagram" style="height: 20px; margin-right: 5px;">
+            </a>
+        </p>
+    </footer>
+</body>
+</html>
